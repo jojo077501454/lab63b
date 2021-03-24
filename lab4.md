@@ -37,6 +37,7 @@
 ![2](https://user-images.githubusercontent.com/80879309/112285506-f78ec000-8cbc-11eb-9726-fd6f4bd181dc.jpg)
 
 5.ต่อเซนเซอร์แสงเข้ากับชุดหลายไฟ
+
 ![3](https://user-images.githubusercontent.com/80879309/112285492-f3fb3900-8cbc-11eb-8dc9-f64096edd41f.jpg)
 
 6.บังแสงและดูการแสดงผลที่จอคอม
