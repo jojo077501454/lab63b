@@ -25,15 +25,19 @@
 
 ## วิธีการทำการทดลอง
 1.เชื่อมไมโครคอนโทรลเลอร์เข้ากับserial port
+![1](https://user-images.githubusercontent.com/80879309/112281475-aaa8ea80-8cb8-11eb-85d5-658acd78728d.jpg)
 
 2.เข้าโฟลเดอร์ไฟล์ตัวอย่างและทำการเลือกตัวอย่างที่ต้องการใช้
+![2](https://user-images.githubusercontent.com/80879309/112281502-b1cff880-8cb8-11eb-8758-3c7a83532e25.jpg)
 
 3.ทำการอัปโหลดโปรแกรมเข้าไมโครคอนโทรลเลอร์
 
 4.กดปุ่มดำเพื่อติดตั้งและกดปุ่มแดงเพื่อรีเซ็ตค่าเดิม
+![7](https://user-images.githubusercontent.com/80879309/112281612-d5933e80-8cb8-11eb-96f6-920088f4f4e7.jpg)
 
 5.พิมพ์คำสั่งรันเพื่อแสดงผล
-![รอบ 2](https://user-images.githubusercontent.com/80879309/112280967-222a4a00-8cb8-11eb-9d8e-7fedf5c3555f.jpg)
+ ![5](https://user-images.githubusercontent.com/80879309/112281565-c4e2c880-8cb8-11eb-9ffa-c1d8aa8c3d03.jpg)
+
 
 ## การบันทึกผลการทดลอง
 เมื่อรันโปรแกรม หน้าจอแสดงการนับตัวเลขโดยหน่วงเวลา 1วินาที
