@@ -12,9 +12,9 @@
 4.serial port
 
 ## ศึกษาข้อมูลเบื้องต้น
-1.https://youtu.be/NLIUsWLEpmg
-2.https://platformio.org/
-3.http://marcuscode.com/lang/cpp
+  1.https://youtu.be/NLIUsWLEpmg
+  2.https://platformio.org/
+  3.http://marcuscode.com/lang/cpp
 
 ## วิธีการทำการทดลอง
 1.เชื่อมไมโครคอนโทรลเลอร์เข้ากับserial port
