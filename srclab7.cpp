@@ -6,8 +6,8 @@ int cnt = 0;
 void setup()  
 
 {
-	Serial.begin(115200);  #กำหนดความเร็วในการส่งข้อมูล
-	WiFi.mode(WIFI_STA); #ตั้งค่า WiFi เป็นโหมดสถานีและตัดการเชื่อมต่อจากเครื่อข่ายหากเชื่อมต่อไว้ก่อนหน้านี้
+	Serial.begin(115200);  
+	WiFi.mode(WIFI_STA);
 	WiFi.disconnect();
 	delay(100);
 	Serial.println("\n\n\n");
@@ -16,7 +16,7 @@ void setup()
 void loop()
 {
 	Serial.println("========== เริ่มต้นแสกนหา Wifi ===========");
-	int n = WiFi.scanNetworks();   #กำหนดตัวแปร
+	int n = WiFi.scanNetworks();   
 	String ssid;
 	int32_t rssi;
 	uint8_t* bssid;
@@ -27,7 +27,7 @@ void loop()
 		Serial.println("NO NETWORK FOUND");
 	} else {
 		for(int i=0; i<n; i++) {
-			WiFi.getNetworkInfo(i, ssid, rssi, bssid, channel); #แสดงข้อมูล WiFi ในรูปแบบของฟังก์ชัน
+			WiFi.getNetworkInfo(i, ssid, rssi, bssid, channel); 
 			Serial.printf("%d: %s Ch:%d %d %s) \n", i + 1, ssid.c_str(), channel, rssi, bssid);  
 			delay(10);
 		}
