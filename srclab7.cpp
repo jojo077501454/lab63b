@@ -28,7 +28,7 @@ void loop()
 	} else {
 		for(int i=0; i<n; i++) {
 			WiFi.getNetworkInfo(i, ssid, rssi, bssid, channel); 
-			Serial.printf("%d: %s Ch:%d %d %s) \n", i + 1, ssid.c_str(), channel, rssi, bssid);  
+			Serial.printf("%d: %s Ch:%d %d %sMAC:) \n", i + 1, ssid.c_str(), channel, rssi, bssid);  
 			delay(10);
 		}
 	}
